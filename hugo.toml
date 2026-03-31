@@ -1,0 +1,69 @@
+baseURL = 'https://example.com/'
+title = "Bando's Blog"
+theme = "mana"
+defaultContentLanguage = "en"
+
+[pagination]
+  pageSize = 10
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    style = "catppuccin-macchiato"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  enableIntegrity = false
+  relatedPostsCount = 3
+  description = "In a landscape of AI slop, why not add a bit of the human kind? Whenever I feel like saying something — about whatever — I'll create a post"
+  author = "Bando"
+  heroTitleLine1 = "BANDO'S BLOG"
+  heroTitleLine2 = "My corner of the internet"
+  footerText = "Built with Hugo and Mana theme"
+
+  [params.avatar]
+    url = "/Gemini_Generated_Image_jv3yrtjv3yrtjv3y.png"
+
+  [params.codeHighlight]
+    darkTheme = "catppuccin-macchiato"
+    lightTheme = "catppuccin-frappe"
+
+  [params.copyright]
+    startYear = 2026
+    owner = "Bando"
+
+# Menu configuration - Home, Blog, About (no tags)
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 20
+
+[[menus.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 30
