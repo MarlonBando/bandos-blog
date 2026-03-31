@@ -42,7 +42,7 @@ defaultContentLanguage = "en"
   footerText = "Built with Hugo and Mana theme"
 
   [params.avatar]
-    url = "/Gemini_Generated_Image_jv3yrtjv3yrtjv3y.png"
+    url = "/bandos-blog/Gemini_Generated_Image_jv3yrtjv3yrtjv3y.png"
 
   [params.codeHighlight]
     darkTheme = "catppuccin-macchiato"
