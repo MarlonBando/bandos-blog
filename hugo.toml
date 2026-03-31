@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'
+baseURL = 'https://MarlonBando.github.io/bandos-blog/'
 title = "Bando's Blog"
 theme = "mana"
 defaultContentLanguage = "en"
