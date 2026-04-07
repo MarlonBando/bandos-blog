@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Bando&#39;s Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>http://localhost:1313/bandos-blog/blog/</link>
     <description>Recent content in Blog on Bando&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Apr 2026 22:31:46 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/bandos-blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Future Tense</title>
+      <link>http://localhost:1313/bandos-blog/blog/future/</link>
+      <pubDate>Tue, 07 Apr 2026 22:31:46 +0200</pubDate>
+      <guid>http://localhost:1313/bandos-blog/blog/future/</guid>
+      <description>&lt;p&gt;In Danish, the future tense doesn&amp;rsquo;t exist.&lt;/p&gt;&#xA;&lt;p&gt;In case you don&amp;rsquo;t know, I have now been more than a year and a half in Denmark and I plan to stay longer. That&amp;rsquo;s why I finally decided to learn Danish (or at least try).&lt;/p&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s class, the professor told us that the future tense doesn&amp;rsquo;t exist in the language. Of course, you can communicate that something hasn&amp;rsquo;t happened yet, mixing the present tense with an auxiliary verb, similarly to English. But still, isn&amp;rsquo;t it crazy that a language doesn&amp;rsquo;t have a future tense? It blew my mind.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
